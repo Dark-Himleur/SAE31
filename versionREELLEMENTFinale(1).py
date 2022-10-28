@@ -37,7 +37,7 @@ with open("random_names_fossbytes.csv") as fichierNomsBruts:
 				donnees += "\n"
 				donnees += "dn: uid=" + uid + ",ou=Employe,dc=polyled,dc=com\n"
 				donnees += "objectClass: inetOrgPerson\n"
-				donnees += "objectClass: posixGroup\n"
+				donnees += "objectClass: extensibleObject\n"
 				donnees += "objectClass: shadowAccount\n"
 				donnees += "sn: "+ nom + "\n"
 				donnees += "givenName: "+ prenom + "\n"
